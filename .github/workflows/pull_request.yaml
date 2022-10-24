@@ -4,6 +4,7 @@ on: [pull_request]
 
 jobs:
   build:
+    name: python pr protector
     runs-on: ubuntu-latest
     strategy:
       matrix:
